@@ -1,0 +1,438 @@
+*{
+  box-sizing: border-box;
+}
+/* -------HEADER----- */
+header{
+  width: 100%;
+  height: 50px;
+  float: left;
+  clear: both;
+}
+.hamburger{
+  display: none;
+}
+nav{
+  float: left;
+  width: 100%;
+}
+.navUl{
+  float: left;
+  width: 100%;
+}
+.navLi{
+  float: left;
+  list-style: none;
+  display: inline;
+  padding-left: 90px;
+}
+.navAnchor{
+  color: rgb(104, 100, 104);
+  text-decoration: none;
+}
+.headerSec1{
+  float: left;
+}
+
+/* ---------Body------- */
+
+.mainSec1{
+  float: left;
+  width: 100%;
+  /* height: 350px; */
+  background-color: rgb(239, 241, 243);
+}
+.mainSec1Mini1{
+  float: left;
+  width: 60%;
+  /* height: 300px; */
+}
+.cutout{
+  float: left;
+  width: 40%;
+}
+.mini1Img{
+  margin-left: 100px;
+}
+.mini1H1{
+  margin-left: 40px;
+  font-weight: 100;
+
+}
+.mini1Para1{
+  width: 50%;
+  margin-left: 40px;
+}
+.mini1Para2{
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: .8rem;
+}
+.mini1Form{
+  margin-left: 40px;
+}
+.mainSec1Mini2{
+  float: left;
+  width: 40%;
+}
+.mainSec2{
+  float: left;
+  width: 100%;
+  /* height: 350px; */
+}
+.mainSec2H4{
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-left: 120px;
+  padding-top: 50px;
+}
+.mainSec2Ul{
+  float: left;
+}
+.mainSec2Li{
+  list-style: none;
+  display: inline-block;
+  width: 40%;
+  margin-left: 90px;
+  border-top: 2px solid rgb(255, 214, 237);
+}
+.mainSec2Para{
+  font-size: .9rem;
+  margin-top: 130px;
+  /* width: 60%; */
+  text-align: center;
+}
+.mainSec3{
+  float: left;
+  width: 100%;
+  /* height: 650px; */
+  background-color: rgb(239, 241, 243);
+  clear: both;
+
+}
+.mainSec3Mini1{
+  float: left;
+  width: 65%;
+  /* height: 600px; */
+}
+.mainSec3MiniH4{
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding-left: 30px;
+}
+.sec3MiniPara{
+  padding-left: 30px;
+  line-height: 1.5;
+}
+.mainSec3Mini2{
+  float: left;
+  width: 35%;
+  /* height: 300px; */
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.mainSec3Mini3{
+  float: left;
+  width: 35%;
+  /* height: 300px; */
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.mini2-3Para{
+  padding-left: 115px;
+}
+.mainSec4{
+  float: left;
+  width: 100%;
+  /* height: 650px; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.mainSec4Mini1{
+  width: 100%;
+  border: 2px solid rgb(239, 241, 243);
+  padding: 30px;
+
+}
+.mainSec4Mini1H4{
+  text-align: center;
+}
+.sec4Mini1Img{
+  float: left;
+}
+.sec4Mini1Para1{
+  padding-left: 260px;
+  font-weight: 600;
+}
+.sec4Mini1Para2{
+  padding-left: 260px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mainSec4Mini2{
+  float: left;
+  width: 100%;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.mainSec4minix2{
+  float: left;
+  width: 50%;
+}
+.mainSec4minix3{
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+.minix3Img{
+  width: auto;
+  height: 70px;
+}
+.mainSec5{
+  float: left;
+  width: 100%;
+  height: 50;
+  background-color: rgb(175, 190, 200);
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.mainSec5Para{
+  color: white;
+  font-size: 1.2rem;
+  float: left;
+}
+.mainSec5Email{
+  width: 300px;
+  height: 35px;
+  float: left;
+  margin-top: 11px;
+}
+.mainSec5Submit{
+  height: 35px;
+  width: 150px;
+  float: left;
+  margin-top: 11px;
+  margin-left: 20px;
+}
+/* -----------FOOTER------------ */
+footer{
+  width: 100%;
+  float: left;
+  background-color: rgb(175, 190, 200);
+  color: white;
+}
+small{
+  float: left;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+footer ul{
+  float: left;
+}
+.footerSec1{
+  float: left;
+  width: 50%;
+}
+.footerSec2{
+  float: left;
+}
+.footerAnchors{
+  color: white;
+  text-decoration: none;
+}
+.socialMediaLi{
+  list-style: none;
+  display: inline;
+  margin-right: 80px;
+
+}
+.footerSec3{
+  float: left;
+  /* padding-top: 30px; */
+}
+.directory1Ul{
+  float: left;
+  width: 15%;
+}
+.directory1Li{
+  list-style: none;
+  float: left;
+  padding-left: 50px;
+}
+.directory2Ul{
+  float: left;
+}
+.directory2Li{
+  display: inline;
+  padding-left: 50px;
+}
+@media only screen and (max-width: 600px){
+  header{
+    height: 20px;
+  }
+  nav{
+    display: none;
+  }
+  .hamburger{
+    display: inline-block;
+  }
+  .cutout{
+    display: none;
+  }
+  .mini1Img{
+    margin: 0;
+  }
+  .mainSec1Mini1{
+    width: 100%;
+  }
+  .mainSec2H4{
+    padding: 0;
+    padding-left: 40px;
+  }
+  .mainSec2Li{
+    margin: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mainSec3{
+    display: none;
+  }
+  .mainSec3Mini1{
+    width: 100%;
+  }
+  .mainSec3Mini2{
+    width: 100%;
+  }
+  .mainSec3Mini3{
+    width: 100%;
+  }
+  /* img center from w3school */
+  .sec4Mini1Img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    float: none;
+  }
+  .sec4Mini1Para1{
+    padding-left: 0;
+  }
+  .sec4Mini1Para2{
+    padding-left: 0;
+  }
+  .mainSec4minix2{
+    width: 100%;
+    padding-left: 0;
+  }
+  .mainSec4minix3{
+    width: 100%;
+    padding-left: 0;
+  }
+  .mainSec5{
+    padding: 0;
+  }
+  .mainSec5Submit{
+    margin-left: 10px;
+  }
+  footer{
+    display: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+  .navLi{
+    padding-left: 3%;
+  }
+  .cutout{
+    padding-top: 50px;
+  }
+  .mini2Img{
+    width: 250px;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+  .mainSec3Mini1{
+    width: 100%;
+  }
+  .mainSec3Mini2{
+    width: 100%;
+  }
+  .mainSec3Mini3{
+    width: 100%;
+  }
+  .sec4Mini1Img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    float: none;
+  }
+  .sec4Mini1Para1{
+    padding-left: 0;
+  }
+  .sec4Mini1Para2{
+    padding-left: 0;
+  }
+  .mainSec4minix2{
+    width: 100%;
+    padding-left: 0;
+  }
+  .mainSec4minix3{
+    width: 100%;
+    padding-left: 0;
+  }
+  .mainSec5{
+    padding: 0;
+  }
+  .mainSec5Submit{
+    margin-left: 10px;
+  }
+  footer{
+    display: none;
+  }
+  .mainSec5Para{
+    width: 100%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px){
+  .navLi{
+    padding-left: 5%;
+  }
+  .cutout{
+    padding-top: 50px;
+  }
+  .mini2Img{
+    width: 250px;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+  .mainSec3Mini1{
+    width: 100%;
+  }
+  .mainSec3Mini2{
+    width: 50%;
+  }
+  .mainSec3Mini3{
+    width: 50%;
+  }
+  .mainSec2Li{
+    width: 30%;
+    display: inline-flex;
+  }
+  .mainSec5Submit{
+    margin-left: 10px;
+  }
+  .socialMediaLi{
+    margin-right: 50px;
+  }
+  .directory1Ul{
+    width: 22%;
+  }
+  .directory2Ul{
+    display: none;
+  }
+  .mainSec5Para{
+    width: 100%;
+  }
+}
